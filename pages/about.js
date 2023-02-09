@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 const About = () => {
 	return (
@@ -8,7 +9,7 @@ const About = () => {
 				<meta name='description' content='About Ayu Adiati' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 			</Head>
-			<section>
+			<main>
 				<h1>About Me</h1>
 				<p>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod esse
@@ -25,7 +26,8 @@ const About = () => {
 					Voluptatem eaque ipsam beatae! Nobis deleniti cum natus possimus
 					facilis?
 				</p>
-			</section>
+			</main>
+			<Link href='/'>Go back to Homepage</Link>
 		</>
 	)
 }
