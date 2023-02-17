@@ -1,0 +1,29 @@
+$color-blue: #05128B;
+$color-white: #FAFAFA;
+
+.navbar {
+  background: $color-blue;
+  padding: 0.75em;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    margin-left: 1em;
+  }
+
+  .navList {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .navItem {
+    padding-right: 1.5em;
+  }
+
+  .navLink {
+    color: $color-white;
+    font-weight: 500;
+    text-decoration: none;    
+  }
+}
