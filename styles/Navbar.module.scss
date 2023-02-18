@@ -1,0 +1,33 @@
+@import '/styles/variables';
+@import '/styles/mixins';
+
+.navbar {
+  @include flexAlign(center);
+  background: $color-blue;
+  padding: 1em;
+
+  .logo {
+    margin-left: 1em;
+  }
+
+  .navList {
+    @include flexAlign(center);
+    list-style: none;
+    margin-left: auto;
+  }
+
+  .navItem {
+    margin-right: 1.2em;
+  }
+
+  .navLink {
+    color: $color-white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    
+    &:hover {
+      @include hoverOver
+    }
+  }
+}
