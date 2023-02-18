@@ -8,8 +8,8 @@ const Navbar = () => {
 			<nav className={styles.navbar}>
 				<Image
 					src='/images/ayu_adiati_logo.png'
-					height={45}
-					width={45}
+					height={55}
+					width={55}
 					alt='logo'
 					className={styles.logo}
 				/>

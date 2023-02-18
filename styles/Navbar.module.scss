@@ -1,7 +1,4 @@
-// $color-blue: #05128B;
-$color-blue: #070f55;
-$color-white: #F3F7FA;
-$color-orange: #FB750B;
+@import '/styles/variables';
 
 .navbar {
   background: $color-blue;
@@ -17,10 +14,11 @@ $color-orange: #FB750B;
     list-style: none;
     margin-left: auto;
     display: flex;
+    align-items: center;
   }
 
   .navItem {
-    padding-right: 2em;
+    margin-right: 1.2em;
   }
 
   .navLink {
