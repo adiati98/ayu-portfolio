@@ -1,9 +1,19 @@
 @import '/styles/mixins';
+@import '/styles/variables';
 
 .container {
   @include container;
 
   .text {
     font-size: 1.1rem;
+  }
+
+  .textLink {
+    margin-right: 2em;
+    text-decoration: none;
+
+    &:hover {
+      @include hoverOver
+    }
   }
 }

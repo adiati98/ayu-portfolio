@@ -28,8 +28,11 @@ const About = () => {
 						Voluptatem eaque ipsam beatae! Nobis deleniti cum natus possimus
 						facilis?
 					</p>
-					<Link href='/' className={styles.text}>
+					<Link href='/' className={`${styles.text} ${styles.textLink}`}>
 						Go back to Homepage
+					</Link>
+					<Link href='/blog' className={`${styles.text} ${styles.textLink}`}>
+						Go to Blog
 					</Link>
 				</div>
 			</main>

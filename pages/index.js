@@ -28,8 +28,11 @@ export default function Home() {
 						unde ipsam libero saepe ullam provident laudantium? Veritatis, fuga.
 						Cumque!
 					</p>
-					<Link href='/about' className={styles.text}>
+					<Link href='/about' className={`${styles.text} ${styles.textLink}`}>
 						Go to About Me
+					</Link>
+					<Link href='/blog' className={`${styles.text} ${styles.textLink}`}>
+						Go to Blog
 					</Link>
 				</div>
 			</main>

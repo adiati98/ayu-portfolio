@@ -24,3 +24,10 @@
   align-items: $alignDirection;
   justify-content: $justifyDiretion;
 }
+
+// hover effect
+
+@mixin hoverOver {
+  border-bottom: 3px solid $color-orange;
+  padding-bottom: 3px;
+}
