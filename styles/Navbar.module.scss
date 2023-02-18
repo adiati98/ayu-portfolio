@@ -1,20 +1,19 @@
 @import '/styles/variables';
+@import '/styles/mixins';
 
 .navbar {
+  @include flexAlign(center);
   background: $color-blue;
   padding: 1em;
-  display: flex;
-  align-items: center;
 
   .logo {
     margin-left: 1em;
   }
 
   .navList {
+    @include flexAlign(center);
     list-style: none;
     margin-left: auto;
-    display: flex;
-    align-items: center;
   }
 
   .navItem {

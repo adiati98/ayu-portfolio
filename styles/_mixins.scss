@@ -1,0 +1,26 @@
+// container
+
+@mixin container {
+  max-width: 1280px;
+  margin: 3em auto;
+  padding: 1.5em;
+  line-height: 1.8;
+}
+
+// flex
+
+@mixin flexAlign($alignDirection) {
+  display: flex;
+  align-items: $alignDirection;
+}
+
+@mixin flexJustify($justifyDirection) {
+  display: flex;
+  justify-content: $justifyDiretion;
+}
+
+@mixin flexAlignJustify($alignDirection, $justifyDirection) {
+  display: flex;
+  align-items: $alignDirection;
+  justify-content: $justifyDiretion;
+}
